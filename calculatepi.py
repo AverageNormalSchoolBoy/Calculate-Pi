@@ -1,6 +1,6 @@
 """
 calculatepi.py
-Author: <your name here>
+Author: <Brendan>
 Credit: <list sources used, if any>
 Assignment:
 
@@ -21,3 +21,8 @@ The approximate value of pi is 3.1315929
 Note: remember that the printed value of pi will be an estimate!
 
 """
+
+dec = input("I will estimate pi. How many terms should I use?")
+term = range(0,int(dec))
+pie = [((-1^x)/(2x+1)) for x in terms]
+pi = sum(pi)
