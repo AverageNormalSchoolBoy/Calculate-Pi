@@ -24,5 +24,5 @@ Note: remember that the printed value of pi will be an estimate!
 
 dec = input("I will estimate pi. How many terms should I use?")
 term = range(0,int(dec))
-pie = [((-1^x)/(2x+1)) for x in terms]
+pie = [((-1**x)/(2x+1)) for x in terms]
 pi = sum(pi)
