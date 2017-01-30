@@ -27,4 +27,5 @@ rnd = input("How many decimal places should I use in the result?")
 term = range(0,int(dec))
 pie = [((-1)**x)/(2*x+1) for x in term]
 print(list(pie))
-
+pi = 4*sum(pie)
+print("The approximate value of pi is {0}." .format(round(pi, int(rnd))))
