@@ -26,5 +26,5 @@ dec = input("I will estimate pi. How many terms should I use?")
 rnd = input("How many decimal places should I use in the result?")
 term = range(0,int(dec))
 pie = [(-1**x)/(2*x+1) for x in term]
-pi = sum(pie)
-print("The approximate value of pi is {0}." .format(round(pi, rnd)))
+pi = 4*sum(pie)
+print("The approximate value of pi is {0}." .format(round(pi, int(rnd))))
