@@ -22,8 +22,8 @@ Note: remember that the printed value of pi will be an estimate!
 
 """
 
-dec = input("I will estimate pi. How many terms should I use?")
-rnd = input("How many decimal places should I use in the result?")
+dec = input("I will estimate pi. How many terms should I use? ")
+rnd = input("How many decimal places should I use in the result? ")
 term = range(0,int(dec))
 pie = [((-1)**x)/(2*x+1) for x in term]
 pi = 4*sum(pie)
