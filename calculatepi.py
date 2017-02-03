@@ -1,7 +1,7 @@
 """
 calculatepi.py
-Author: <Brendan>
-Credit: <Ethan Adner>
+Author: Brendan
+Credit: Ethan Adner
 Assignment:
 
 Write and submit a Python program that computes an approximate value of π by calculating the following sum:
